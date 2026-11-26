@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">خانه</string>
+    <string name="tab_install">نصب</string>
+    <string name="tab_terminal">ترمینال</string>
+    <string name="tab_apps">برنامه‌ها</string>
+    <string name="tab_settings">تنظیمات</string>
+    <string name="home_title">کانتینر لینوکس</string>
+    <string name="home_subtitle">باز کردن و اجرای بسته‌های deb در اندروید بدون root.</string>
+    <string name="env_ready">آماده</string>
+    <string name="env_missing">مقداردهی نشده</string>
+    <string name="env_distro">توزیع</string>
+    <string name="env_arch">معماری</string>
+    <string name="env_size">فضای مصرفی</string>
+    <string name="hint_ready">محیط آماده است. ترمینال را باز کنید یا یک deb نصب کنید.</string>
+    <string name="hint_need_setup">ابتدا محیط را مقداردهی کنید.</string>
+    <string name="btn_setup">مقداردهی محیط</string>
+    <string name="btn_terminal">باز کردن ترمینال</string>
+    <string name="btn_reset">بازنشانی</string>
+    <string name="setup_running">در حال مقداردهی…</string>
+    <string name="setup_cancel">انصراف</string>
+    <string name="delete_confirm">بازنشانی</string>
+    <string name="install_title">نصب deb</string>
+    <string name="install_hint">بسته فقط داخل کانتینر باز می‌شود و به سیستم اندروید دست نمی‌زند.</string>
+    <string name="install_pick">انتخاب فایل deb</string>
+    <string name="install_start">نصب</string>
+    <string name="install_running">در حال نصب…</string>
+    <string name="install_ok">بسته نصب شد</string>
+    <string name="install_fail">نصب ناموفق بود</string>
+    <string name="term_status_running">در حال اجرا</string>
+    <string name="term_status_idle">بی‌کار</string>
+    <string name="term_restart">راه‌اندازی مجدد</string>
+    <string name="apps_title">بسته‌های نصب‌شده</string>
+    <string name="apps_search">جستجو</string>
+    <string name="apps_empty">هنوز بسته‌ای نصب نشده است.</string>
+    <string name="settings_licenses">مجوزهای متن‌باز</string>
+    <string name="settings_terms">شرایط سرویس</string>
+    <string name="action_ok">تأیید</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_edit">تغییر</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Acasă</string>
+    <string name="tab_install">Instalare</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Aplicații</string>
+    <string name="tab_settings">Setări</string>
+    <string name="home_title">Container Linux</string>
+    <string name="home_subtitle">Despachetează și rulează pachete deb pe Android fără root.</string>
+    <string name="env_ready">Pregătit</string>
+    <string name="env_missing">Neinițializat</string>
+    <string name="env_distro">Distribuție</string>
+    <string name="env_arch">Arhitectură</string>
+    <string name="env_size">Spațiu ocupat</string>
+    <string name="hint_ready">Mediul este gata. Deschide terminalul sau instalează un .deb.</string>
+    <string name="hint_need_setup">Inițializează mai întâi mediul.</string>
+    <string name="btn_setup">Inițializează mediul</string>
+    <string name="btn_terminal">Deschide terminalul</string>
+    <string name="btn_reset">Resetează</string>
+    <string name="setup_running">Se inițializează…</string>
+    <string name="setup_cancel">Anulează</string>
+    <string name="delete_confirm">Resetează</string>
+    <string name="install_title">Instalare .deb</string>
+    <string name="install_hint">Pachetul este despachetat doar în container, niciodată în sistemul Android.</string>
+    <string name="install_pick">Alege fișierul .deb</string>
+    <string name="install_start">Instalează</string>
+    <string name="install_running">Se instalează…</string>
+    <string name="install_ok">Pachet instalat</string>
+    <string name="install_fail">Instalarea a eșuat</string>
+    <string name="term_status_running">rulează</string>
+    <string name="term_status_idle">inactiv</string>
+    <string name="term_restart">Repornește</string>
+    <string name="apps_title">Pachete instalate</string>
+    <string name="apps_search">Căutare</string>
+    <string name="apps_empty">Nu există pachete instalate.</string>
+    <string name="settings_licenses">Licențe open source</string>
+    <string name="settings_terms">Termeni și condiții</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Anulează</string>
+    <string name="action_edit">Modifică</string>
+</resources>

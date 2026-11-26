@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Начало</string>
+    <string name="tab_install">Инсталиране</string>
+    <string name="tab_terminal">Терминал</string>
+    <string name="tab_apps">Приложения</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="home_title">Linux контейнер</string>
+    <string name="home_subtitle">Разопаковане и стартиране на deb пакети в Android без root.</string>
+    <string name="env_ready">Готово</string>
+    <string name="env_missing">Не е инициализирано</string>
+    <string name="env_distro">Дистрибуция</string>
+    <string name="env_arch">Архитектура</string>
+    <string name="env_size">Заето място</string>
+    <string name="hint_ready">Средата е готова. Отворете терминала или инсталирайте .deb.</string>
+    <string name="hint_need_setup">Първо инициализирайте средата.</string>
+    <string name="btn_setup">Инициализиране на средата</string>
+    <string name="btn_terminal">Отваряне на терминал</string>
+    <string name="btn_reset">Нулиране</string>
+    <string name="setup_running">Инициализиране…</string>
+    <string name="setup_cancel">Отказ</string>
+    <string name="delete_confirm">Нулиране</string>
+    <string name="install_title">Инсталиране на .deb</string>
+    <string name="install_hint">Пакетът се разопакова само в контейнера, никога в системата на Android.</string>
+    <string name="install_pick">Изберете .deb файл</string>
+    <string name="install_start">Инсталиране</string>
+    <string name="install_running">Инсталиране…</string>
+    <string name="install_ok">Пакетът е инсталиран</string>
+    <string name="install_fail">Неуспешно инсталиране</string>
+    <string name="term_status_running">работи</string>
+    <string name="term_status_idle">неактивен</string>
+    <string name="term_restart">Рестартиране</string>
+    <string name="apps_title">Инсталирани пакети</string>
+    <string name="apps_search">Търсене</string>
+    <string name="apps_empty">Още няма инсталирани пакети.</string>
+    <string name="settings_licenses">Лицензи за отворен код</string>
+    <string name="settings_terms">Условия за ползване</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Отказ</string>
+    <string name="action_edit">Промяна</string>
+</resources>

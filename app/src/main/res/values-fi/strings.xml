@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Koti</string>
+    <string name="tab_install">Asenna</string>
+    <string name="tab_terminal">Pääte</string>
+    <string name="tab_apps">Sovellukset</string>
+    <string name="tab_settings">Asetukset</string>
+    <string name="home_title">Linux-kontti</string>
+    <string name="home_subtitle">Pura ja aja deb-paketteja Androidissa ilman rootia.</string>
+    <string name="env_ready">Valmis</string>
+    <string name="env_missing">Alustamaton</string>
+    <string name="env_distro">Jakelu</string>
+    <string name="env_arch">Arkkitehtuuri</string>
+    <string name="env_size">Käytetty tila</string>
+    <string name="hint_ready">Ympäristö on valmis. Avaa pääte tai asenna .deb.</string>
+    <string name="hint_need_setup">Alusta ympäristö ensin.</string>
+    <string name="btn_setup">Alusta ympäristö</string>
+    <string name="btn_terminal">Avaa pääte</string>
+    <string name="btn_reset">Nollaa</string>
+    <string name="setup_running">Alustetaan…</string>
+    <string name="setup_cancel">Peruuta</string>
+    <string name="delete_confirm">Nollaa</string>
+    <string name="install_title">Asenna .deb</string>
+    <string name="install_hint">Paketti puretaan vain konttiin, ei koskaan Android-järjestelmään.</string>
+    <string name="install_pick">Valitse .deb-tiedosto</string>
+    <string name="install_start">Asenna</string>
+    <string name="install_running">Asennetaan…</string>
+    <string name="install_ok">Paketti asennettu</string>
+    <string name="install_fail">Asennus epäonnistui</string>
+    <string name="term_status_running">käynnissä</string>
+    <string name="term_status_idle">joutilas</string>
+    <string name="term_restart">Uudelleenkäynnistä</string>
+    <string name="apps_title">Asennetut paketit</string>
+    <string name="apps_search">Haku</string>
+    <string name="apps_empty">Ei vielä asennettuja paketteja.</string>
+    <string name="settings_licenses">Avoimen lähdekoodin lisenssit</string>
+    <string name="settings_terms">Palveluehdot</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Peruuta</string>
+    <string name="action_edit">Muuta</string>
+</resources>

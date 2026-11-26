@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">בית</string>
+    <string name="tab_install">התקנה</string>
+    <string name="tab_terminal">מסוף</string>
+    <string name="tab_apps">אפליקציות</string>
+    <string name="tab_settings">הגדרות</string>
+    <string name="home_title">מכולת Linux</string>
+    <string name="home_subtitle">פריסה והרצה של חבילות deb באנדרואיד ללא root.</string>
+    <string name="env_ready">מוכן</string>
+    <string name="env_missing">לא מאותחל</string>
+    <string name="env_distro">הפצה</string>
+    <string name="env_arch">ארכיטקטורה</string>
+    <string name="env_size">שטח בשימוש</string>
+    <string name="hint_ready">הסביבה מוכנה. פתחו את המסוף או התקינו קובץ deb.</string>
+    <string name="hint_need_setup">אתחלו קודם את הסביבה.</string>
+    <string name="btn_setup">אתחול הסביבה</string>
+    <string name="btn_terminal">פתיחת מסוף</string>
+    <string name="btn_reset">איפוס</string>
+    <string name="setup_running">מאתחל…</string>
+    <string name="setup_cancel">ביטול</string>
+    <string name="delete_confirm">איפוס</string>
+    <string name="install_title">התקנת deb</string>
+    <string name="install_hint">החבילה נפרסת רק בתוך המכולה, ולעולם לא במערכת אנדרואיד.</string>
+    <string name="install_pick">בחירת קובץ deb</string>
+    <string name="install_start">התקנה</string>
+    <string name="install_running">מתקין…</string>
+    <string name="install_ok">החבילה הותקנה</string>
+    <string name="install_fail">ההתקנה נכשלה</string>
+    <string name="term_status_running">פועל</string>
+    <string name="term_status_idle">לא פעיל</string>
+    <string name="term_restart">הפעלה מחדש</string>
+    <string name="apps_title">חבילות מותקנות</string>
+    <string name="apps_search">חיפוש</string>
+    <string name="apps_empty">עדיין אין חבילות מותקנות.</string>
+    <string name="settings_licenses">רישיונות קוד פתוח</string>
+    <string name="settings_terms">תנאי שירות</string>
+    <string name="action_ok">אישור</string>
+    <string name="action_cancel">ביטול</string>
+    <string name="action_edit">שינוי</string>
+</resources>

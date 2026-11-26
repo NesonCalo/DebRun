@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Hjem</string>
+    <string name="tab_install">Installer</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Apper</string>
+    <string name="tab_settings">Innstillinger</string>
+    <string name="home_title">Linux-container</string>
+    <string name="home_subtitle">Pakk ut og kjør deb-pakker på Android uten root.</string>
+    <string name="env_ready">Klar</string>
+    <string name="env_missing">Ikke initialisert</string>
+    <string name="env_distro">Distribusjon</string>
+    <string name="env_arch">Arkitektur</string>
+    <string name="env_size">Brukt plass</string>
+    <string name="hint_ready">Miljøet er klart. Åpne terminalen eller installer en .deb.</string>
+    <string name="hint_need_setup">Initialiser miljøet først.</string>
+    <string name="btn_setup">Initialiser miljø</string>
+    <string name="btn_terminal">Åpne terminal</string>
+    <string name="btn_reset">Tilbakestill</string>
+    <string name="setup_running">Initialiserer…</string>
+    <string name="setup_cancel">Avbryt</string>
+    <string name="delete_confirm">Tilbakestill</string>
+    <string name="install_title">Installer .deb</string>
+    <string name="install_hint">Pakken pakkes bare ut i containeren, aldri i Android-systemet.</string>
+    <string name="install_pick">Velg .deb-fil</string>
+    <string name="install_start">Installer</string>
+    <string name="install_running">Installerer…</string>
+    <string name="install_ok">Pakken er installert</string>
+    <string name="install_fail">Installasjonen mislyktes</string>
+    <string name="term_status_running">kjører</string>
+    <string name="term_status_idle">inaktiv</string>
+    <string name="term_restart">Start på nytt</string>
+    <string name="apps_title">Installerte pakker</string>
+    <string name="apps_search">Søk</string>
+    <string name="apps_empty">Ingen pakker installert ennå.</string>
+    <string name="settings_licenses">Åpen kildekodelisenser</string>
+    <string name="settings_terms">Tjenestevilkår</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_edit">Endre</string>
+</resources>

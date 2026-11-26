@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">首頁</string>
+    <string name="tab_install">安裝</string>
+    <string name="tab_terminal">終端機</string>
+    <string name="tab_apps">應用程式</string>
+    <string name="tab_settings">設定</string>
+    <string name="home_title">Linux 容器</string>
+    <string name="home_subtitle">在 Android 上解包並執行 deb 套件，無需 root。</string>
+    <string name="env_ready">已就緒</string>
+    <string name="env_missing">未初始化</string>
+    <string name="env_distro">發行版</string>
+    <string name="env_arch">架構</string>
+    <string name="env_size">佔用空間</string>
+    <string name="hint_ready">環境已就緒。可以開啟終端機或安裝 deb 套件。</string>
+    <string name="hint_need_setup">請先初始化環境。</string>
+    <string name="btn_setup">初始化環境</string>
+    <string name="btn_terminal">開啟終端機</string>
+    <string name="btn_reset">重設</string>
+    <string name="setup_running">正在初始化…</string>
+    <string name="setup_cancel">取消</string>
+    <string name="delete_confirm">重設</string>
+    <string name="install_title">安裝 deb 套件</string>
+    <string name="install_hint">套件只會解包到 Linux 容器內，不會寫入 Android 系統。</string>
+    <string name="install_pick">選擇 deb 檔案</string>
+    <string name="install_start">開始安裝</string>
+    <string name="install_running">正在安裝…</string>
+    <string name="install_ok">安裝成功</string>
+    <string name="install_fail">安裝失敗</string>
+    <string name="term_status_running">執行中</string>
+    <string name="term_status_idle">閒置</string>
+    <string name="term_restart">重新啟動</string>
+    <string name="apps_title">已安裝套件</string>
+    <string name="apps_search">搜尋</string>
+    <string name="apps_empty">尚未安裝任何套件。</string>
+    <string name="settings_licenses">開源授權</string>
+    <string name="settings_terms">服務條款</string>
+    <string name="action_ok">確定</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_edit">變更</string>
+</resources>

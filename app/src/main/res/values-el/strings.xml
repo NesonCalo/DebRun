@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Αρχική</string>
+    <string name="tab_install">Εγκατάσταση</string>
+    <string name="tab_terminal">Τερματικό</string>
+    <string name="tab_apps">Εφαρμογές</string>
+    <string name="tab_settings">Ρυθμίσεις</string>
+    <string name="home_title">Δοχείο Linux</string>
+    <string name="home_subtitle">Αποσυμπίεση και εκτέλεση πακέτων deb στο Android χωρίς root.</string>
+    <string name="env_ready">Έτοιμο</string>
+    <string name="env_missing">Μη αρχικοποιημένο</string>
+    <string name="env_distro">Διανομή</string>
+    <string name="env_arch">Αρχιτεκτονική</string>
+    <string name="env_size">Χώρος σε χρήση</string>
+    <string name="hint_ready">Το περιβάλλον είναι έτοιμο. Ανοίξτε το τερματικό ή εγκαταστήστε .deb.</string>
+    <string name="hint_need_setup">Αρχικοποιήστε πρώτα το περιβάλλον.</string>
+    <string name="btn_setup">Αρχικοποίηση περιβάλλοντος</string>
+    <string name="btn_terminal">Άνοιγμα τερματικού</string>
+    <string name="btn_reset">Επαναφορά</string>
+    <string name="setup_running">Αρχικοποίηση…</string>
+    <string name="setup_cancel">Άκυρο</string>
+    <string name="delete_confirm">Επαναφορά</string>
+    <string name="install_title">Εγκατάσταση .deb</string>
+    <string name="install_hint">Το πακέτο αποσυμπιέζεται μόνο στο δοχείο, ποτέ στο σύστημα Android.</string>
+    <string name="install_pick">Επιλογή αρχείου .deb</string>
+    <string name="install_start">Εγκατάσταση</string>
+    <string name="install_running">Γίνεται εγκατάσταση…</string>
+    <string name="install_ok">Το πακέτο εγκαταστάθηκε</string>
+    <string name="install_fail">Η εγκατάσταση απέτυχε</string>
+    <string name="term_status_running">σε λειτουργία</string>
+    <string name="term_status_idle">αδρανές</string>
+    <string name="term_restart">Επανεκκίνηση</string>
+    <string name="apps_title">Εγκατεστημένα πακέτα</string>
+    <string name="apps_search">Αναζήτηση</string>
+    <string name="apps_empty">Δεν έχουν εγκατασταθεί πακέτα.</string>
+    <string name="settings_licenses">Άδειες ανοιχτού κώδικα</string>
+    <string name="settings_terms">Όροι χρήσης</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Άκυρο</string>
+    <string name="action_edit">Αλλαγή</string>
+</resources>

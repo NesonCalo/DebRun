@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Ana sayfa</string>
+    <string name="tab_install">Kur</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Uygulamalar</string>
+    <string name="tab_settings">Ayarlar</string>
+    <string name="home_title">Linux konteyneri</string>
+    <string name="home_subtitle">deb paketlerini root olmadan Android\'de açıp çalıştırın.</string>
+    <string name="env_ready">Hazır</string>
+    <string name="env_missing">Başlatılmadı</string>
+    <string name="env_distro">Dağıtım</string>
+    <string name="env_arch">Mimari</string>
+    <string name="env_size">Disk kullanımı</string>
+    <string name="hint_ready">Ortam hazır. Terminali açın veya bir .deb kurun.</string>
+    <string name="hint_need_setup">Önce ortamı başlatın.</string>
+    <string name="btn_setup">Ortamı başlat</string>
+    <string name="btn_terminal">Terminali aç</string>
+    <string name="btn_reset">Sıfırla</string>
+    <string name="setup_running">Başlatılıyor…</string>
+    <string name="setup_cancel">İptal</string>
+    <string name="delete_confirm">Sıfırla</string>
+    <string name="install_title">.deb kur</string>
+    <string name="install_hint">Paket yalnızca konteyner içinde açılır, Android sistemine yazılmaz.</string>
+    <string name="install_pick">.deb dosyası seç</string>
+    <string name="install_start">Kur</string>
+    <string name="install_running">Kuruluyor…</string>
+    <string name="install_ok">Paket kuruldu</string>
+    <string name="install_fail">Kurulum başarısız</string>
+    <string name="term_status_running">çalışıyor</string>
+    <string name="term_status_idle">boşta</string>
+    <string name="term_restart">Yeniden başlat</string>
+    <string name="apps_title">Kurulu paketler</string>
+    <string name="apps_search">Ara</string>
+    <string name="apps_empty">Henüz paket kurulmadı.</string>
+    <string name="settings_licenses">Açık kaynak lisansları</string>
+    <string name="settings_terms">Hizmet şartları</string>
+    <string name="action_ok">Tamam</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_edit">Değiştir</string>
+</resources>

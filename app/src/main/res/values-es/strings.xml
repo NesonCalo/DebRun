@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Inicio</string>
+    <string name="tab_install">Instalar</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="home_title">Contenedor Linux</string>
+    <string name="home_subtitle">Desempaquetar y ejecutar paquetes deb en Android sin root.</string>
+    <string name="env_ready">Listo</string>
+    <string name="env_missing">Sin inicializar</string>
+    <string name="env_distro">Distribución</string>
+    <string name="env_arch">Arquitectura</string>
+    <string name="env_size">Espacio usado</string>
+    <string name="hint_ready">El entorno está listo. Abre la terminal o instala un .deb.</string>
+    <string name="hint_need_setup">Inicializa primero el entorno.</string>
+    <string name="btn_setup">Inicializar entorno</string>
+    <string name="btn_terminal">Abrir terminal</string>
+    <string name="btn_reset">Restablecer</string>
+    <string name="setup_running">Inicializando…</string>
+    <string name="setup_cancel">Cancelar</string>
+    <string name="delete_confirm">Restablecer</string>
+    <string name="install_title">Instalar .deb</string>
+    <string name="install_hint">El paquete se descomprime dentro del contenedor, nunca en el sistema Android.</string>
+    <string name="install_pick">Elegir archivo .deb</string>
+    <string name="install_start">Instalar</string>
+    <string name="install_running">Instalando…</string>
+    <string name="install_ok">Paquete instalado</string>
+    <string name="install_fail">Error de instalación</string>
+    <string name="term_status_running">activo</string>
+    <string name="term_status_idle">inactivo</string>
+    <string name="term_restart">Reiniciar</string>
+    <string name="apps_title">Paquetes instalados</string>
+    <string name="apps_search">Buscar</string>
+    <string name="apps_empty">Aún no hay paquetes instalados.</string>
+    <string name="settings_licenses">Licencias de código abierto</string>
+    <string name="settings_terms">Términos del servicio</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_edit">Cambiar</string>
+</resources>

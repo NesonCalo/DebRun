@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">होम</string>
+    <string name="tab_install">इंस्टॉल</string>
+    <string name="tab_terminal">टर्मिनल</string>
+    <string name="tab_apps">ऐप्स</string>
+    <string name="tab_settings">सेटिंग्स</string>
+    <string name="home_title">Linux कंटेनर</string>
+    <string name="home_subtitle">Android पर बिना root deb पैकेज चलाएँ।</string>
+    <string name="env_ready">तैयार</string>
+    <string name="env_missing">प्रारंभ नहीं हुआ</string>
+    <string name="env_distro">वितरण</string>
+    <string name="env_arch">आर्किटेक्चर</string>
+    <string name="env_size">उपयोग की गई जगह</string>
+    <string name="hint_ready">वातावरण तैयार है। टर्मिनल खोलें या .deb इंस्टॉल करें।</string>
+    <string name="hint_need_setup">पहले वातावरण प्रारंभ करें।</string>
+    <string name="btn_setup">वातावरण प्रारंभ करें</string>
+    <string name="btn_terminal">टर्मिनल खोलें</string>
+    <string name="btn_reset">रीसेट</string>
+    <string name="setup_running">प्रारंभ हो रहा है…</string>
+    <string name="setup_cancel">रद्द करें</string>
+    <string name="delete_confirm">रीसेट</string>
+    <string name="install_title">.deb इंस्टॉल करें</string>
+    <string name="install_hint">पैकेज केवल कंटेनर में खुलता है, Android सिस्टम में नहीं।</string>
+    <string name="install_pick">.deb फ़ाइल चुनें</string>
+    <string name="install_start">इंस्टॉल</string>
+    <string name="install_running">इंस्टॉल हो रहा है…</string>
+    <string name="install_ok">पैकेज इंस्टॉल हुआ</string>
+    <string name="install_fail">इंस्टॉल विफल</string>
+    <string name="term_status_running">चल रहा है</string>
+    <string name="term_status_idle">निष्क्रिय</string>
+    <string name="term_restart">पुनः आरंभ</string>
+    <string name="apps_title">इंस्टॉल किए गए पैकेज</string>
+    <string name="apps_search">खोजें</string>
+    <string name="apps_empty">अभी कोई पैकेज इंस्टॉल नहीं है।</string>
+    <string name="settings_licenses">ओपन सोर्स लाइसेंस</string>
+    <string name="settings_terms">सेवा की शर्तें</string>
+    <string name="action_ok">ठीक</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_edit">बदलें</string>
+</resources>

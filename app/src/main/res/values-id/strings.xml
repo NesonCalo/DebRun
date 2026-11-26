@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Beranda</string>
+    <string name="tab_install">Pasang</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Aplikasi</string>
+    <string name="tab_settings">Pengaturan</string>
+    <string name="home_title">Kontainer Linux</string>
+    <string name="home_subtitle">Membongkar dan menjalankan paket deb di Android tanpa root.</string>
+    <string name="env_ready">Siap</string>
+    <string name="env_missing">Belum diinisialisasi</string>
+    <string name="env_distro">Distribusi</string>
+    <string name="env_arch">Arsitektur</string>
+    <string name="env_size">Ruang terpakai</string>
+    <string name="hint_ready">Lingkungan siap. Buka terminal atau pasang .deb.</string>
+    <string name="hint_need_setup">Inisialisasi lingkungan terlebih dahulu.</string>
+    <string name="btn_setup">Inisialisasi lingkungan</string>
+    <string name="btn_terminal">Buka terminal</string>
+    <string name="btn_reset">Setel ulang</string>
+    <string name="setup_running">Menginisialisasi…</string>
+    <string name="setup_cancel">Batal</string>
+    <string name="delete_confirm">Setel ulang</string>
+    <string name="install_title">Pasang .deb</string>
+    <string name="install_hint">Paket hanya dibongkar di dalam kontainer, tidak pernah ke sistem Android.</string>
+    <string name="install_pick">Pilih berkas .deb</string>
+    <string name="install_start">Pasang</string>
+    <string name="install_running">Memasang…</string>
+    <string name="install_ok">Paket terpasang</string>
+    <string name="install_fail">Pemasangan gagal</string>
+    <string name="term_status_running">berjalan</string>
+    <string name="term_status_idle">menganggur</string>
+    <string name="term_restart">Mulai ulang</string>
+    <string name="apps_title">Paket terpasang</string>
+    <string name="apps_search">Cari</string>
+    <string name="apps_empty">Belum ada paket terpasang.</string>
+    <string name="settings_licenses">Lisensi open source</string>
+    <string name="settings_terms">Ketentuan layanan</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_edit">Ubah</string>
+</resources>

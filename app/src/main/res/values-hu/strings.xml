@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Kezdőlap</string>
+    <string name="tab_install">Telepítés</string>
+    <string name="tab_terminal">Terminál</string>
+    <string name="tab_apps">Alkalmazások</string>
+    <string name="tab_settings">Beállítások</string>
+    <string name="home_title">Linux konténer</string>
+    <string name="home_subtitle">Deb csomagok kicsomagolása és futtatása Androidon root nélkül.</string>
+    <string name="env_ready">Kész</string>
+    <string name="env_missing">Nincs inicializálva</string>
+    <string name="env_distro">Disztribúció</string>
+    <string name="env_arch">Architektúra</string>
+    <string name="env_size">Használt hely</string>
+    <string name="hint_ready">A környezet elkészült. Nyisd meg a terminált vagy telepíts egy .deb-et.</string>
+    <string name="hint_need_setup">Először inicializáld a környezetet.</string>
+    <string name="btn_setup">Környezet inicializálása</string>
+    <string name="btn_terminal">Terminál megnyitása</string>
+    <string name="btn_reset">Visszaállítás</string>
+    <string name="setup_running">Inicializálás…</string>
+    <string name="setup_cancel">Mégse</string>
+    <string name="delete_confirm">Visszaállítás</string>
+    <string name="install_title">.deb telepítése</string>
+    <string name="install_hint">A csomag csak a konténerben kerül kicsomagolásra, az Android rendszerben nem.</string>
+    <string name="install_pick">.deb fájl választása</string>
+    <string name="install_start">Telepítés</string>
+    <string name="install_running">Telepítés…</string>
+    <string name="install_ok">Csomag telepítve</string>
+    <string name="install_fail">A telepítés nem sikerült</string>
+    <string name="term_status_running">fut</string>
+    <string name="term_status_idle">tétlen</string>
+    <string name="term_restart">Újraindítás</string>
+    <string name="apps_title">Telepített csomagok</string>
+    <string name="apps_search">Keresés</string>
+    <string name="apps_empty">Még nincs telepített csomag.</string>
+    <string name="settings_licenses">Nyílt forráskódú licencek</string>
+    <string name="settings_terms">Szolgáltatási feltételek</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Mégse</string>
+    <string name="action_edit">Módosítás</string>
+</resources>

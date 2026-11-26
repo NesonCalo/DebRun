@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Home</string>
+    <string name="tab_install">I-install</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Mga app</string>
+    <string name="tab_settings">Mga setting</string>
+    <string name="home_title">Linux container</string>
+    <string name="home_subtitle">I-unpack at patakbuhin ang deb package sa Android nang walang root.</string>
+    <string name="env_ready">Handa na</string>
+    <string name="env_missing">Hindi pa nasimulan</string>
+    <string name="env_distro">Distribution</string>
+    <string name="env_arch">Arkitektura</string>
+    <string name="env_size">Nagamit na espasyo</string>
+    <string name="hint_ready">Handa na ang environment. Buksan ang terminal o mag-install ng .deb.</string>
+    <string name="hint_need_setup">Simulan muna ang environment.</string>
+    <string name="btn_setup">Simulan ang environment</string>
+    <string name="btn_terminal">Buksan ang terminal</string>
+    <string name="btn_reset">I-reset</string>
+    <string name="setup_running">Nagsisimula…</string>
+    <string name="setup_cancel">Kanselahin</string>
+    <string name="delete_confirm">I-reset</string>
+    <string name="install_title">I-install ang .deb</string>
+    <string name="install_hint">Ina-unpack lang ang package sa loob ng container, hindi sa Android system.</string>
+    <string name="install_pick">Pumili ng .deb file</string>
+    <string name="install_start">I-install</string>
+    <string name="install_running">Nag-i-install…</string>
+    <string name="install_ok">Na-install ang package</string>
+    <string name="install_fail">Nabigo ang pag-install</string>
+    <string name="term_status_running">tumatakbo</string>
+    <string name="term_status_idle">walang ginagawa</string>
+    <string name="term_restart">I-restart</string>
+    <string name="apps_title">Mga naka-install na package</string>
+    <string name="apps_search">Maghanap</string>
+    <string name="apps_empty">Wala pang naka-install na package.</string>
+    <string name="settings_licenses">Mga open source license</string>
+    <string name="settings_terms">Mga tuntunin ng serbisyo</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Kanselahin</string>
+    <string name="action_edit">Palitan</string>
+</resources>

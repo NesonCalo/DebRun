@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Inici</string>
+    <string name="tab_install">Instal·la</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Aplicacions</string>
+    <string name="tab_settings">Configuració</string>
+    <string name="home_title">Contenidor Linux</string>
+    <string name="home_subtitle">Descomprimeix i executa paquets deb a Android sense root.</string>
+    <string name="env_ready">A punt</string>
+    <string name="env_missing">No inicialitzat</string>
+    <string name="env_distro">Distribució</string>
+    <string name="env_arch">Arquitectura</string>
+    <string name="env_size">Espai ocupat</string>
+    <string name="hint_ready">L\'entorn està a punt. Obre el terminal o instal·la un .deb.</string>
+    <string name="hint_need_setup">Inicialitza primer l\'entorn.</string>
+    <string name="btn_setup">Inicialitza l\'entorn</string>
+    <string name="btn_terminal">Obre el terminal</string>
+    <string name="btn_reset">Restableix</string>
+    <string name="setup_running">Inicialitzant…</string>
+    <string name="setup_cancel">Cancel·la</string>
+    <string name="delete_confirm">Restableix</string>
+    <string name="install_title">Instal·la .deb</string>
+    <string name="install_hint">El paquet es descomprimeix només dins del contenidor, mai al sistema Android.</string>
+    <string name="install_pick">Tria un fitxer .deb</string>
+    <string name="install_start">Instal·la</string>
+    <string name="install_running">Instal·lant…</string>
+    <string name="install_ok">Paquet instal·lat</string>
+    <string name="install_fail">La instal·lació ha fallat</string>
+    <string name="term_status_running">actiu</string>
+    <string name="term_status_idle">inactiu</string>
+    <string name="term_restart">Reinicia</string>
+    <string name="apps_title">Paquets instal·lats</string>
+    <string name="apps_search">Cerca</string>
+    <string name="apps_empty">Encara no hi ha paquets instal·lats.</string>
+    <string name="settings_licenses">Llicències de codi obert</string>
+    <string name="settings_terms">Condicions del servei</string>
+    <string name="action_ok">D\'acord</string>
+    <string name="action_cancel">Cancel·la</string>
+    <string name="action_edit">Canvia</string>
+</resources>

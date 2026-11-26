@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">ホーム</string>
+    <string name="tab_install">インストール</string>
+    <string name="tab_terminal">ターミナル</string>
+    <string name="tab_apps">アプリ</string>
+    <string name="tab_settings">設定</string>
+    <string name="home_title">Linux コンテナ</string>
+    <string name="home_subtitle">.deb パッケージを root なしで Android 上で動かします。</string>
+    <string name="env_ready">準備完了</string>
+    <string name="env_missing">未初期化</string>
+    <string name="env_distro">ディストリビューション</string>
+    <string name="env_arch">アーキテクチャ</string>
+    <string name="env_size">使用容量</string>
+    <string name="hint_ready">環境の準備ができました。ターミナルを開くか、.deb をインストールしてください。</string>
+    <string name="hint_need_setup">先に環境を初期化してください。</string>
+    <string name="btn_setup">環境を初期化</string>
+    <string name="btn_terminal">ターミナルを開く</string>
+    <string name="btn_reset">リセット</string>
+    <string name="setup_running">初期化中…</string>
+    <string name="setup_cancel">キャンセル</string>
+    <string name="delete_confirm">リセット</string>
+    <string name="install_title">.deb をインストール</string>
+    <string name="install_hint">パッケージはコンテナ内部に展開され、Android システムには書き込まれません。</string>
+    <string name="install_pick">.deb ファイルを選択</string>
+    <string name="install_start">インストール</string>
+    <string name="install_running">インストール中…</string>
+    <string name="install_ok">インストールしました</string>
+    <string name="install_fail">インストールに失敗しました</string>
+    <string name="term_status_running">実行中</string>
+    <string name="term_status_idle">待機中</string>
+    <string name="term_restart">再起動</string>
+    <string name="apps_title">インストール済みパッケージ</string>
+    <string name="apps_search">検索</string>
+    <string name="apps_empty">パッケージはまだありません。</string>
+    <string name="settings_licenses">オープンソースライセンス</string>
+    <string name="settings_terms">利用規約</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_edit">変更</string>
+</resources>

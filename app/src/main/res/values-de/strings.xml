@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Start</string>
+    <string name="tab_install">Installieren</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_settings">Einstellungen</string>
+    <string name="home_title">Linux-Container</string>
+    <string name="home_subtitle">Deb-Pakete unter Android ohne Root auspacken und ausführen.</string>
+    <string name="env_ready">Bereit</string>
+    <string name="env_missing">Nicht initialisiert</string>
+    <string name="env_distro">Distribution</string>
+    <string name="env_arch">Architektur</string>
+    <string name="env_size">Belegter Platz</string>
+    <string name="hint_ready">Umgebung ist bereit. Terminal öffnen oder .deb installieren.</string>
+    <string name="hint_need_setup">Bitte zuerst die Umgebung initialisieren.</string>
+    <string name="btn_setup">Umgebung initialisieren</string>
+    <string name="btn_terminal">Terminal öffnen</string>
+    <string name="btn_reset">Zurücksetzen</string>
+    <string name="setup_running">Initialisierung…</string>
+    <string name="setup_cancel">Abbrechen</string>
+    <string name="delete_confirm">Zurücksetzen</string>
+    <string name="install_title">.deb installieren</string>
+    <string name="install_hint">Das Paket wird nur im Container entpackt, nie im Android-System.</string>
+    <string name="install_pick">.deb-Datei wählen</string>
+    <string name="install_start">Installieren</string>
+    <string name="install_running">Installiere…</string>
+    <string name="install_ok">Paket installiert</string>
+    <string name="install_fail">Installation fehlgeschlagen</string>
+    <string name="term_status_running">läuft</string>
+    <string name="term_status_idle">inaktiv</string>
+    <string name="term_restart">Neustart</string>
+    <string name="apps_title">Installierte Pakete</string>
+    <string name="apps_search">Suchen</string>
+    <string name="apps_empty">Noch keine Pakete installiert.</string>
+    <string name="settings_licenses">Open-Source-Lizenzen</string>
+    <string name="settings_terms">Nutzungsbedingungen</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_edit">Ändern</string>
+</resources>

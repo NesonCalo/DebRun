@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Почетна</string>
+    <string name="tab_install">Инсталирање</string>
+    <string name="tab_terminal">Терминал</string>
+    <string name="tab_apps">Апликације</string>
+    <string name="tab_settings">Подешавања</string>
+    <string name="home_title">Linux контејнер</string>
+    <string name="home_subtitle">Распакујте и покрените deb пакете на Android-у без root.</string>
+    <string name="env_ready">Спремно</string>
+    <string name="env_missing">Није иницијализовано</string>
+    <string name="env_distro">Дистрибуција</string>
+    <string name="env_arch">Архитектура</string>
+    <string name="env_size">Заузет простор</string>
+    <string name="hint_ready">Окружење је спремно. Отворите терминал или инсталирајте .deb.</string>
+    <string name="hint_need_setup">Прво иницијализујте окружење.</string>
+    <string name="btn_setup">Иницијализуј окружење</string>
+    <string name="btn_terminal">Отвори терминал</string>
+    <string name="btn_reset">Ресетуј</string>
+    <string name="setup_running">Иницијализација…</string>
+    <string name="setup_cancel">Откажи</string>
+    <string name="delete_confirm">Ресетуј</string>
+    <string name="install_title">Инсталирај .deb</string>
+    <string name="install_hint">Пакет се распакује само у контејнеру, никада у Android систему.</string>
+    <string name="install_pick">Изабери .deb датотеку</string>
+    <string name="install_start">Инсталирај</string>
+    <string name="install_running">Инсталирање…</string>
+    <string name="install_ok">Пакет инсталиран</string>
+    <string name="install_fail">Инсталација неуспешна</string>
+    <string name="term_status_running">ради</string>
+    <string name="term_status_idle">неактиван</string>
+    <string name="term_restart">Рестартуј</string>
+    <string name="apps_title">Инсталирани пакети</string>
+    <string name="apps_search">Претрага</string>
+    <string name="apps_empty">Још нема инсталираних пакета.</string>
+    <string name="settings_licenses">Лиценце отвореног кода</string>
+    <string name="settings_terms">Услови коришћења</string>
+    <string name="action_ok">У реду</string>
+    <string name="action_cancel">Откажи</string>
+    <string name="action_edit">Промени</string>
+</resources>

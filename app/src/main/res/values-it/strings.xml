@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Home</string>
+    <string name="tab_install">Installa</string>
+    <string name="tab_terminal">Terminale</string>
+    <string name="tab_apps">App</string>
+    <string name="tab_settings">Impostazioni</string>
+    <string name="home_title">Contenitore Linux</string>
+    <string name="home_subtitle">Estrai ed esegui pacchetti deb su Android senza root.</string>
+    <string name="env_ready">Pronto</string>
+    <string name="env_missing">Non inizializzato</string>
+    <string name="env_distro">Distribuzione</string>
+    <string name="env_arch">Architettura</string>
+    <string name="env_size">Spazio usato</string>
+    <string name="hint_ready">Ambiente pronto. Apri il terminale o installa un .deb.</string>
+    <string name="hint_need_setup">Inizializza prima l\'ambiente.</string>
+    <string name="btn_setup">Inizializza ambiente</string>
+    <string name="btn_terminal">Apri terminale</string>
+    <string name="btn_reset">Reimposta</string>
+    <string name="setup_running">Inizializzazione…</string>
+    <string name="setup_cancel">Annulla</string>
+    <string name="delete_confirm">Reimposta</string>
+    <string name="install_title">Installa .deb</string>
+    <string name="install_hint">Il pacchetto viene estratto nel contenitore, mai nel sistema Android.</string>
+    <string name="install_pick">Scegli file .deb</string>
+    <string name="install_start">Installa</string>
+    <string name="install_running">Installazione…</string>
+    <string name="install_ok">Pacchetto installato</string>
+    <string name="install_fail">Installazione non riuscita</string>
+    <string name="term_status_running">attivo</string>
+    <string name="term_status_idle">inattivo</string>
+    <string name="term_restart">Riavvia</string>
+    <string name="apps_title">Pacchetti installati</string>
+    <string name="apps_search">Cerca</string>
+    <string name="apps_empty">Nessun pacchetto installato.</string>
+    <string name="settings_licenses">Licenze open source</string>
+    <string name="settings_terms">Termini di servizio</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_edit">Cambia</string>
+</resources>

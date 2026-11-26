@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Start</string>
+    <string name="tab_install">Installeren</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_settings">Instellingen</string>
+    <string name="home_title">Linux-container</string>
+    <string name="home_subtitle">Pak deb-pakketten uit en voer ze uit op Android zonder root.</string>
+    <string name="env_ready">Gereed</string>
+    <string name="env_missing">Niet geïnitialiseerd</string>
+    <string name="env_distro">Distributie</string>
+    <string name="env_arch">Architectuur</string>
+    <string name="env_size">Schijfgebruik</string>
+    <string name="hint_ready">Omgeving is gereed. Open het terminal of installeer een .deb.</string>
+    <string name="hint_need_setup">Initialiseer eerst de omgeving.</string>
+    <string name="btn_setup">Omgeving initialiseren</string>
+    <string name="btn_terminal">Terminal openen</string>
+    <string name="btn_reset">Resetten</string>
+    <string name="setup_running">Initialiseren…</string>
+    <string name="setup_cancel">Annuleren</string>
+    <string name="delete_confirm">Resetten</string>
+    <string name="install_title">.deb installeren</string>
+    <string name="install_hint">Het pakket wordt alleen in de container uitgepakt, nooit in Android.</string>
+    <string name="install_pick">.deb-bestand kiezen</string>
+    <string name="install_start">Installeren</string>
+    <string name="install_running">Installeren…</string>
+    <string name="install_ok">Pakket geïnstalleerd</string>
+    <string name="install_fail">Installatie mislukt</string>
+    <string name="term_status_running">actief</string>
+    <string name="term_status_idle">inactief</string>
+    <string name="term_restart">Herstarten</string>
+    <string name="apps_title">Geïnstalleerde pakketten</string>
+    <string name="apps_search">Zoeken</string>
+    <string name="apps_empty">Nog geen pakketten geïnstalleerd.</string>
+    <string name="settings_licenses">Open-sourcelicenties</string>
+    <string name="settings_terms">Servicevoorwaarden</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annuleren</string>
+    <string name="action_edit">Wijzigen</string>
+</resources>

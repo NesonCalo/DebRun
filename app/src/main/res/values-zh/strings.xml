@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DebRun</string>
+
+    <string name="tab_home">首页</string>
+    <string name="tab_install">安装</string>
+    <string name="tab_terminal">终端</string>
+    <string name="tab_apps">应用</string>
+    <string name="tab_settings">设置</string>
+
+    <string name="home_title">Linux 容器</string>
+    <string name="home_subtitle">在安卓上解包并运行 deb 软件包，无需 root。</string>
+    <string name="env_ready">已就绪</string>
+    <string name="env_missing">未初始化</string>
+    <string name="env_distro">发行版</string>
+    <string name="env_arch">架构</string>
+    <string name="env_size">占用空间</string>
+    <string name="hint_ready">环境已就绪。可以打开终端，或安装 deb 软件包。</string>
+    <string name="hint_need_setup">请先初始化环境。</string>
+
+    <string name="btn_setup">初始化环境</string>
+    <string name="btn_terminal">打开终端</string>
+    <string name="btn_reset">重置</string>
+
+    <string name="setup_running">正在初始化…</string>
+    <string name="setup_cancel">取消</string>
+    <string name="progress_download">正在下载根文件系统</string>
+    <string name="progress_extract">正在解压根文件系统</string>
+    <string name="progress_configure">正在配置环境</string>
+    <string name="progress_done">完成</string>
+
+    <string name="delete_title">重置环境？</string>
+    <string name="delete_body">根文件系统以及所有已安装的软件包都会被删除。</string>
+    <string name="delete_confirm">重置</string>
+
+    <string name="install_title">安装 deb 软件包</string>
+    <string name="install_hint">软件包只会被解包到 Linux 容器内部，不会写入安卓系统。</string>
+    <string name="install_pick">选择 deb 文件</string>
+    <string name="install_meta_empty">选择一个软件包查看元数据。</string>
+    <string name="install_pkg">软件包名</string>
+    <string name="install_version">版本</string>
+    <string name="install_arch">架构</string>
+    <string name="install_size">安装后大小</string>
+    <string name="install_deps">依赖</string>
+    <string name="install_start">开始安装</string>
+    <string name="install_running">正在安装…</string>
+    <string name="install_ok">安装成功</string>
+    <string name="install_fail">安装失败</string>
+    <string name="install_log">安装输出</string>
+    <string name="install_fix_deps">用 apt 自动补齐依赖</string>
+
+    <string name="term_status_running">运行中</string>
+    <string name="term_status_idle">空闲</string>
+    <string name="term_restart">重启</string>
+
+    <string name="apps_title">已安装软件包</string>
+    <string name="apps_count">共 %1$d 个</string>
+    <string name="apps_refresh">刷新</string>
+    <string name="apps_search">搜索</string>
+    <string name="apps_empty">还没有安装任何软件包。</string>
+    <string name="apps_run_title">运行命令</string>
+    <string name="apps_run_hint">容器内执行的命令</string>
+    <string name="apps_run">运行</string>
+
+    <string name="settings_distro">发行版</string>
+    <string name="distro_ubuntu">Ubuntu 24.04</string>
+    <string name="distro_ubuntu_desc">体积小，glibc 较新，对大多数 deb 兼容性最好。</string>
+    <string name="distro_debian">Debian 12（bookworm）</string>
+    <string name="distro_debian_desc">原生 Debian 环境，下载体积较大。</string>
+    <string name="distro_change_hint">切换发行版需要重新初始化环境。</string>
+    <string name="settings_mirror">使用国内镜像</string>
+    <string name="settings_mirror_cn">清华 TUNA / 阿里云</string>
+    <string name="settings_mirror_global">官方源</string>
+    <string name="settings_dns">DNS 服务器</string>
+    <string name="settings_font">终端字号</string>
+    <string name="settings_theme_lang">语言</string>
+    <string name="settings_version">版本 %1$s</string>
+    <string name="settings_danger">危险操作</string>
+    <string name="settings_about">关于 DebRun</string>
+    <string name="settings_licenses">开源许可</string>
+    <string name="settings_terms">服务条款</string>
+
+    <string name="action_ok">确定</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_edit">修改</string>
+
+    <string name="about_body">DebRun 是面向安卓的开源 Linux 容器运行时。它内置 PRoot、Debian/Ubuntu 根文件系统和终端，让 deb 软件包能在应用沙盒里被解包并运行——不需要 root、不需要解锁 Bootloader，也不会改动安卓系统分区。\n\n工作原理：\n1. PRoot 通过 ptrace 模拟 chroot，普通应用也能拥有一个独立 Linux 文件树。\n2. 首次使用时下载根文件系统，解压到应用私有目录。\n3. deb 文件交给容器内的 dpkg 安装，缺失依赖由 apt 补齐。\n4. 内置 xterm.js 终端驱动同一文件树里的交互式 shell。\n\n限制：图形界面（X11）程序还需要 X 服务器，暂不显示；内核模块、init 系统、硬件设备节点不可用；64 位设备上不支持 32 位二进制。\n\n源码、许可证与问题反馈见 GitHub 上的 DebRun 仓库。</string>
+
+    <string name="license_body">DebRun 本体采用 GPL-3.0-or-later 许可。\n\n第三方组件：\n\n• PRoot 5.1.107 — GPL-2.0-or-later，Termux 构建版本，https://github.com/termux/proot，具体版本 5.1.107.102；对应源码可在该仓库获取。\n• libtalloc 2.5.0、libandroid-shmem 0.7 — LGPL-3.0-or-later / MIT，随 PRoot 运行时一同分发。\n• xterm.js 5.5.0、@xterm/addon-fit 0.10.0 — MIT，https://github.com/xtermjs/xterm.js。\n• Apache Commons Compress 1.26.2 — Apache-2.0；XZ for Java 1.9 — 0BSD。\n• AndroidX / Jetpack Compose / Kotlin — Apache-2.0。\n• Ubuntu 24.04 根文件系统 — 多种自由软件许可，https://ubuntu.com；Debian 12 根文件系统 — 多种自由软件许可，https://debian.org。\n\n所有商标归其所有者所有。运行时下载的文件仍受其各自许可约束。</string>
+
+    <string name="terms_body">1. DebRun 会在你的设备上运行完整的 Linux 用户态。安装的软件包以应用自身权限在沙盒内执行，无法修改安卓系统，但可以读写你授予的文件。\n\n2. 请只安装来自可信来源、你信任的 deb 文件。软件包可能包含任意代码，并会以应用的网络与存储权限运行；DebRun 不会在软件包之间再做隔离。\n\n3. 根文件系统镜像与软件包来自第三方镜像站，其可用性、完整性与许可由提供方负责。\n\n4. 本软件按“现状”提供，不附带任何担保。作者不对使用本软件造成的数据丢失、设备损坏或法律后果负责。\n\n5. 请勿使用 DebRun 绕过安卓的安全模型、运行盗版软件或违反当地法律。\n\n6. 安装本应用即表示你接受本条款以及开源许可部分列出的全部许可。</string>
+</resources>

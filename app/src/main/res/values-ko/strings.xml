@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">홈</string>
+    <string name="tab_install">설치</string>
+    <string name="tab_terminal">터미널</string>
+    <string name="tab_apps">앱</string>
+    <string name="tab_settings">설정</string>
+    <string name="home_title">리눅스 컨테이너</string>
+    <string name="home_subtitle">루트 권한 없이 안드로이드에서 deb 패키지를 실행합니다.</string>
+    <string name="env_ready">준비됨</string>
+    <string name="env_missing">초기화되지 않음</string>
+    <string name="env_distro">배포판</string>
+    <string name="env_arch">아키텍처</string>
+    <string name="env_size">사용 용량</string>
+    <string name="hint_ready">환경이 준비되었습니다. 터미널을 열거나 deb를 설치하세요.</string>
+    <string name="hint_need_setup">먼저 환경을 초기화하세요.</string>
+    <string name="btn_setup">환경 초기화</string>
+    <string name="btn_terminal">터미널 열기</string>
+    <string name="btn_reset">초기화</string>
+    <string name="setup_running">초기화 중…</string>
+    <string name="setup_cancel">취소</string>
+    <string name="delete_confirm">초기화</string>
+    <string name="install_title">deb 설치</string>
+    <string name="install_hint">패키지는 컨테이너 내부에만 풀리며 안드로이드 시스템은 건드리지 않습니다.</string>
+    <string name="install_pick">deb 파일 선택</string>
+    <string name="install_start">설치</string>
+    <string name="install_running">설치 중…</string>
+    <string name="install_ok">설치 완료</string>
+    <string name="install_fail">설치 실패</string>
+    <string name="term_status_running">실행 중</string>
+    <string name="term_status_idle">대기</string>
+    <string name="term_restart">재시작</string>
+    <string name="apps_title">설치된 패키지</string>
+    <string name="apps_search">검색</string>
+    <string name="apps_empty">설치된 패키지가 없습니다.</string>
+    <string name="settings_licenses">오픈소스 라이선스</string>
+    <string name="settings_terms">서비스 약관</string>
+    <string name="action_ok">확인</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_edit">변경</string>
+</resources>

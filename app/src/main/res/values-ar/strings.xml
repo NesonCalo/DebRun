@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_install">تثبيت</string>
+    <string name="tab_terminal">الطرفية</string>
+    <string name="tab_apps">التطبيقات</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="home_title">حاوية Linux</string>
+    <string name="home_subtitle">فك وتشغيل حزم deb على أندرويد دون صلاحيات root.</string>
+    <string name="env_ready">جاهز</string>
+    <string name="env_missing">غير مهيأ</string>
+    <string name="env_distro">التوزيعة</string>
+    <string name="env_arch">المعمارية</string>
+    <string name="env_size">المساحة المستخدمة</string>
+    <string name="hint_ready">البيئة جاهزة. افتح الطرفية أو ثبّت حزمة deb.</string>
+    <string name="hint_need_setup">هيّئ البيئة أولاً.</string>
+    <string name="btn_setup">تهيئة البيئة</string>
+    <string name="btn_terminal">فتح الطرفية</string>
+    <string name="btn_reset">إعادة تعيين</string>
+    <string name="setup_running">جارٍ التهيئة…</string>
+    <string name="setup_cancel">إلغاء</string>
+    <string name="delete_confirm">إعادة تعيين</string>
+    <string name="install_title">تثبيت حزمة deb</string>
+    <string name="install_hint">تُفك الحزمة داخل الحاوية فقط ولا تمس نظام أندرويد.</string>
+    <string name="install_pick">اختر ملف deb</string>
+    <string name="install_start">تثبيت</string>
+    <string name="install_running">جارٍ التثبيت…</string>
+    <string name="install_ok">تم تثبيت الحزمة</string>
+    <string name="install_fail">فشل التثبيت</string>
+    <string name="term_status_running">قيد التشغيل</string>
+    <string name="term_status_idle">خامل</string>
+    <string name="term_restart">إعادة تشغيل</string>
+    <string name="apps_title">الحزم المثبتة</string>
+    <string name="apps_search">بحث</string>
+    <string name="apps_empty">لا توجد حزم مثبتة بعد.</string>
+    <string name="settings_licenses">تراخيص المصادر المفتوحة</string>
+    <string name="settings_terms">شروط الخدمة</string>
+    <string name="action_ok">حسنًا</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_edit">تغيير</string>
+</resources>

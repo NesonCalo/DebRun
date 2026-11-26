@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Início</string>
+    <string name="tab_install">Instalar</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="home_title">Contêiner Linux</string>
+    <string name="home_subtitle">Desempacote e execute pacotes deb no Android sem root.</string>
+    <string name="env_ready">Pronto</string>
+    <string name="env_missing">Não inicializado</string>
+    <string name="env_distro">Distribuição</string>
+    <string name="env_arch">Arquitetura</string>
+    <string name="env_size">Espaço usado</string>
+    <string name="hint_ready">O ambiente está pronto. Abra o terminal ou instale um .deb.</string>
+    <string name="hint_need_setup">Inicialize o ambiente primeiro.</string>
+    <string name="btn_setup">Inicializar ambiente</string>
+    <string name="btn_terminal">Abrir terminal</string>
+    <string name="btn_reset">Redefinir</string>
+    <string name="setup_running">Inicializando…</string>
+    <string name="setup_cancel">Cancelar</string>
+    <string name="delete_confirm">Redefinir</string>
+    <string name="install_title">Instalar .deb</string>
+    <string name="install_hint">O pacote é descompactado dentro do contêiner, nunca no sistema Android.</string>
+    <string name="install_pick">Escolher arquivo .deb</string>
+    <string name="install_start">Instalar</string>
+    <string name="install_running">Instalando…</string>
+    <string name="install_ok">Pacote instalado</string>
+    <string name="install_fail">Falha na instalação</string>
+    <string name="term_status_running">ativo</string>
+    <string name="term_status_idle">ocioso</string>
+    <string name="term_restart">Reiniciar</string>
+    <string name="apps_title">Pacotes instalados</string>
+    <string name="apps_search">Pesquisar</string>
+    <string name="apps_empty">Nenhum pacote instalado.</string>
+    <string name="settings_licenses">Licenças de código aberto</string>
+    <string name="settings_terms">Termos de serviço</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_edit">Alterar</string>
+</resources>

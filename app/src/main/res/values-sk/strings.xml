@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Domov</string>
+    <string name="tab_install">Inštalácia</string>
+    <string name="tab_terminal">Terminál</string>
+    <string name="tab_apps">Aplikácie</string>
+    <string name="tab_settings">Nastavenia</string>
+    <string name="home_title">Linuxový kontajner</string>
+    <string name="home_subtitle">Rozbaľte a spúšťajte balíčky deb na Androide bez rootu.</string>
+    <string name="env_ready">Pripravené</string>
+    <string name="env_missing">Neinicializované</string>
+    <string name="env_distro">Distribúcia</string>
+    <string name="env_arch">Architektúra</string>
+    <string name="env_size">Využité miesto</string>
+    <string name="hint_ready">Prostredie je pripravené. Otvorte terminál alebo nainštalujte .deb.</string>
+    <string name="hint_need_setup">Najprv inicializujte prostredie.</string>
+    <string name="btn_setup">Inicializovať prostredie</string>
+    <string name="btn_terminal">Otvoriť terminál</string>
+    <string name="btn_reset">Obnoviť</string>
+    <string name="setup_running">Inicializácia…</string>
+    <string name="setup_cancel">Zrušiť</string>
+    <string name="delete_confirm">Obnoviť</string>
+    <string name="install_title">Nainštalovať .deb</string>
+    <string name="install_hint">Balíček sa rozbaľuje iba v kontajneri, nikdy v systéme Android.</string>
+    <string name="install_pick">Vybrať súbor .deb</string>
+    <string name="install_start">Nainštalovať</string>
+    <string name="install_running">Inštaluje sa…</string>
+    <string name="install_ok">Balíček nainštalovaný</string>
+    <string name="install_fail">Inštalácia zlyhala</string>
+    <string name="term_status_running">beží</string>
+    <string name="term_status_idle">nečinný</string>
+    <string name="term_restart">Reštartovať</string>
+    <string name="apps_title">Nainštalované balíčky</string>
+    <string name="apps_search">Hľadať</string>
+    <string name="apps_empty">Zatiaľ nie sú nainštalované žiadne balíčky.</string>
+    <string name="settings_licenses">Open source licencie</string>
+    <string name="settings_terms">Podmienky služby</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Zrušiť</string>
+    <string name="action_edit">Zmeniť</string>
+</resources>

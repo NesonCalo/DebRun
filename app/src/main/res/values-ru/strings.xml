@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Главная</string>
+    <string name="tab_install">Установка</string>
+    <string name="tab_terminal">Терминал</string>
+    <string name="tab_apps">Приложения</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="home_title">Контейнер Linux</string>
+    <string name="home_subtitle">Распаковка и запуск deb-пакетов на Android без root.</string>
+    <string name="env_ready">Готово</string>
+    <string name="env_missing">Не инициализовано</string>
+    <string name="env_distro">Дистрибутив</string>
+    <string name="env_arch">Архитектура</string>
+    <string name="env_size">Занято на диске</string>
+    <string name="hint_ready">Среда готова. Откройте терминал или установите deb.</string>
+    <string name="hint_need_setup">Сначала инициализируйте среду.</string>
+    <string name="btn_setup">Инициализировать</string>
+    <string name="btn_terminal">Открыть терминал</string>
+    <string name="btn_reset">Сброс</string>
+    <string name="setup_running">Инициализация…</string>
+    <string name="setup_cancel">Отмена</string>
+    <string name="delete_confirm">Сброс</string>
+    <string name="install_title">Установка deb</string>
+    <string name="install_hint">Пакет распаковывается внутри контейнера и не затрагивает систему Android.</string>
+    <string name="install_pick">Выбрать файл deb</string>
+    <string name="install_start">Установить</string>
+    <string name="install_running">Установка…</string>
+    <string name="install_ok">Пакет установлен</string>
+    <string name="install_fail">Ошибка установки</string>
+    <string name="term_status_running">работает</string>
+    <string name="term_status_idle">ожидание</string>
+    <string name="term_restart">Перезапуск</string>
+    <string name="apps_title">Установленные пакеты</string>
+    <string name="apps_search">Поиск</string>
+    <string name="apps_empty">Пакеты ещё не установлены.</string>
+    <string name="settings_licenses">Лицензии</string>
+    <string name="settings_terms">Условия</string>
+    <string name="action_ok">ОК</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_edit">Изменить</string>
+</resources>

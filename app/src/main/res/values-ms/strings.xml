@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Utama</string>
+    <string name="tab_install">Pasang</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Aplikasi</string>
+    <string name="tab_settings">Tetapan</string>
+    <string name="home_title">Bekas Linux</string>
+    <string name="home_subtitle">Buka dan jalankan pakej deb pada Android tanpa root.</string>
+    <string name="env_ready">Sedia</string>
+    <string name="env_missing">Belum dimulakan</string>
+    <string name="env_distro">Distribusi</string>
+    <string name="env_arch">Seni bina</string>
+    <string name="env_size">Ruang digunakan</string>
+    <string name="hint_ready">Persekitaran sedia. Buka terminal atau pasang .deb.</string>
+    <string name="hint_need_setup">Mulakan persekitaran dahulu.</string>
+    <string name="btn_setup">Mulakan persekitaran</string>
+    <string name="btn_terminal">Buka terminal</string>
+    <string name="btn_reset">Set semula</string>
+    <string name="setup_running">Memulakan…</string>
+    <string name="setup_cancel">Batal</string>
+    <string name="delete_confirm">Set semula</string>
+    <string name="install_title">Pasang .deb</string>
+    <string name="install_hint">Pakej hanya dibuka dalam bekas, tidak menyentuh sistem Android.</string>
+    <string name="install_pick">Pilih fail .deb</string>
+    <string name="install_start">Pasang</string>
+    <string name="install_running">Memasang…</string>
+    <string name="install_ok">Pakej dipasang</string>
+    <string name="install_fail">Pemasangan gagal</string>
+    <string name="term_status_running">berjalan</string>
+    <string name="term_status_idle">melahu</string>
+    <string name="term_restart">Mula semula</string>
+    <string name="apps_title">Pakej dipasang</string>
+    <string name="apps_search">Cari</string>
+    <string name="apps_empty">Belum ada pakej dipasang.</string>
+    <string name="settings_licenses">Lesen sumber terbuka</string>
+    <string name="settings_terms">Terma perkhidmatan</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_edit">Tukar</string>
+</resources>

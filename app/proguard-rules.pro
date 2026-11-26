@@ -1,0 +1,2 @@
+-keep class com.nesoncalo.debrun.ui.** { *; }
+-keepclassmembers class * { @android.webkit.JavascriptInterface <methods>; }

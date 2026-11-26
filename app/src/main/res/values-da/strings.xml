@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Hjem</string>
+    <string name="tab_install">Installer</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Apps</string>
+    <string name="tab_settings">Indstillinger</string>
+    <string name="home_title">Linux-container</string>
+    <string name="home_subtitle">Udpak og kør deb-pakker på Android uden root.</string>
+    <string name="env_ready">Klar</string>
+    <string name="env_missing">Ikke initialiseret</string>
+    <string name="env_distro">Distribution</string>
+    <string name="env_arch">Arkitektur</string>
+    <string name="env_size">Brugt plads</string>
+    <string name="hint_ready">Miljøet er klart. Åbn terminalen eller installér en .deb.</string>
+    <string name="hint_need_setup">Initialisér miljøet først.</string>
+    <string name="btn_setup">Initialisér miljø</string>
+    <string name="btn_terminal">Åbn terminal</string>
+    <string name="btn_reset">Nulstil</string>
+    <string name="setup_running">Initialiserer…</string>
+    <string name="setup_cancel">Annullér</string>
+    <string name="delete_confirm">Nulstil</string>
+    <string name="install_title">Installér .deb</string>
+    <string name="install_hint">Pakken udpakkes kun i containeren, aldrig i Android-systemet.</string>
+    <string name="install_pick">Vælg .deb-fil</string>
+    <string name="install_start">Installér</string>
+    <string name="install_running">Installerer…</string>
+    <string name="install_ok">Pakke installeret</string>
+    <string name="install_fail">Installation mislykkedes</string>
+    <string name="term_status_running">kører</string>
+    <string name="term_status_idle">inaktiv</string>
+    <string name="term_restart">Genstart</string>
+    <string name="apps_title">Installerede pakker</string>
+    <string name="apps_search">Søg</string>
+    <string name="apps_empty">Ingen pakker installeret endnu.</string>
+    <string name="settings_licenses">Open source-licenser</string>
+    <string name="settings_terms">Servicevilkår</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annullér</string>
+    <string name="action_edit">Ændr</string>
+</resources>

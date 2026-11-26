@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Головна</string>
+    <string name="tab_install">Встановлення</string>
+    <string name="tab_terminal">Термінал</string>
+    <string name="tab_apps">Програми</string>
+    <string name="tab_settings">Налаштування</string>
+    <string name="home_title">Контейнер Linux</string>
+    <string name="home_subtitle">Розпакування та запуск deb-пакетів на Android без root.</string>
+    <string name="env_ready">Готово</string>
+    <string name="env_missing">Не ініціалізовано</string>
+    <string name="env_distro">Дистрибутив</string>
+    <string name="env_arch">Архітектура</string>
+    <string name="env_size">Зайнято на диску</string>
+    <string name="hint_ready">Середовище готове. Відкрийте термінал або встановіть deb.</string>
+    <string name="hint_need_setup">Спершу ініціалізуйте середовище.</string>
+    <string name="btn_setup">Ініціалізувати</string>
+    <string name="btn_terminal">Відкрити термінал</string>
+    <string name="btn_reset">Скинути</string>
+    <string name="setup_running">Ініціалізація…</string>
+    <string name="setup_cancel">Скасувати</string>
+    <string name="delete_confirm">Скинути</string>
+    <string name="install_title">Встановити .deb</string>
+    <string name="install_hint">Пакет розпаковується лише в контейнері, не в системі Android.</string>
+    <string name="install_pick">Вибрати файл .deb</string>
+    <string name="install_start">Встановити</string>
+    <string name="install_running">Встановлення…</string>
+    <string name="install_ok">Пакет встановлено</string>
+    <string name="install_fail">Помилка встановлення</string>
+    <string name="term_status_running">працює</string>
+    <string name="term_status_idle">очікування</string>
+    <string name="term_restart">Перезапуск</string>
+    <string name="apps_title">Встановлені пакети</string>
+    <string name="apps_search">Пошук</string>
+    <string name="apps_empty">Ще немає встановлених пакетів.</string>
+    <string name="settings_licenses">Ліцензії з відкритим кодом</string>
+    <string name="settings_terms">Умови надання послуг</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="action_edit">Змінити</string>
+</resources>

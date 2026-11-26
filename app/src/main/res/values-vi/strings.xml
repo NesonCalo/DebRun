@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Trang chủ</string>
+    <string name="tab_install">Cài đặt</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Ứng dụng</string>
+    <string name="tab_settings">Cài đặt</string>
+    <string name="home_title">Vùng chứa Linux</string>
+    <string name="home_subtitle">Giải nén và chạy gói deb trên Android mà không cần root.</string>
+    <string name="env_ready">Sẵn sàng</string>
+    <string name="env_missing">Chưa khởi tạo</string>
+    <string name="env_distro">Bản phân phối</string>
+    <string name="env_arch">Kiến trúc</string>
+    <string name="env_size">Dung lượng dùng</string>
+    <string name="hint_ready">Môi trường đã sẵn sàng. Mở terminal hoặc cài một gói .deb.</string>
+    <string name="hint_need_setup">Hãy khởi tạo môi trường trước.</string>
+    <string name="btn_setup">Khởi tạo môi trường</string>
+    <string name="btn_terminal">Mở terminal</string>
+    <string name="btn_reset">Đặt lại</string>
+    <string name="setup_running">Đang khởi tạo…</string>
+    <string name="setup_cancel">Hủy</string>
+    <string name="delete_confirm">Đặt lại</string>
+    <string name="install_title">Cài gói .deb</string>
+    <string name="install_hint">Gói chỉ được giải nén bên trong vùng chứa, không ghi vào hệ thống Android.</string>
+    <string name="install_pick">Chọn tệp .deb</string>
+    <string name="install_start">Cài đặt</string>
+    <string name="install_running">Đang cài…</string>
+    <string name="install_ok">Đã cài gói</string>
+    <string name="install_fail">Cài đặt thất bại</string>
+    <string name="term_status_running">đang chạy</string>
+    <string name="term_status_idle">nhàn rỗi</string>
+    <string name="term_restart">Khởi động lại</string>
+    <string name="apps_title">Gói đã cài</string>
+    <string name="apps_search">Tìm kiếm</string>
+    <string name="apps_empty">Chưa có gói nào được cài.</string>
+    <string name="settings_licenses">Giấy phép mã nguồn mở</string>
+    <string name="settings_terms">Điều khoản dịch vụ</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_edit">Thay đổi</string>
+</resources>

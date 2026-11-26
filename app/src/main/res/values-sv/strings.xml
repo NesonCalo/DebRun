@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Hem</string>
+    <string name="tab_install">Installera</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Appar</string>
+    <string name="tab_settings">Inställningar</string>
+    <string name="home_title">Linux-container</string>
+    <string name="home_subtitle">Packa upp och kör deb-paket på Android utan root.</string>
+    <string name="env_ready">Klar</string>
+    <string name="env_missing">Ej initierad</string>
+    <string name="env_distro">Distribution</string>
+    <string name="env_arch">Arkitektur</string>
+    <string name="env_size">Använt utrymme</string>
+    <string name="hint_ready">Miljön är klar. Öppna terminalen eller installera ett .deb.</string>
+    <string name="hint_need_setup">Initiera miljön först.</string>
+    <string name="btn_setup">Initiera miljö</string>
+    <string name="btn_terminal">Öppna terminal</string>
+    <string name="btn_reset">Återställ</string>
+    <string name="setup_running">Initierar…</string>
+    <string name="setup_cancel">Avbryt</string>
+    <string name="delete_confirm">Återställ</string>
+    <string name="install_title">Installera .deb</string>
+    <string name="install_hint">Paketet packas endast upp i containern, aldrig i Android-systemet.</string>
+    <string name="install_pick">Välj .deb-fil</string>
+    <string name="install_start">Installera</string>
+    <string name="install_running">Installerar…</string>
+    <string name="install_ok">Paketet installerat</string>
+    <string name="install_fail">Installationen misslyckades</string>
+    <string name="term_status_running">körs</string>
+    <string name="term_status_idle">vilande</string>
+    <string name="term_restart">Starta om</string>
+    <string name="apps_title">Installerade paket</string>
+    <string name="apps_search">Sök</string>
+    <string name="apps_empty">Inga paket installerade ännu.</string>
+    <string name="settings_licenses">Öppen källkodslicenser</string>
+    <string name="settings_terms">Användarvillkor</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_edit">Ändra</string>
+</resources>

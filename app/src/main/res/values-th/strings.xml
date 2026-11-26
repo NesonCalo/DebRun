@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">หน้าหลัก</string>
+    <string name="tab_install">ติดตั้ง</string>
+    <string name="tab_terminal">เทอร์มินัล</string>
+    <string name="tab_apps">แอป</string>
+    <string name="tab_settings">การตั้งค่า</string>
+    <string name="home_title">คอนเทนเนอร์ Linux</string>
+    <string name="home_subtitle">แตกไฟล์และเรียกใช้แพ็กเกจ deb บนแอนดรอยด์โดยไม่ต้องรูท</string>
+    <string name="env_ready">พร้อม</string>
+    <string name="env_missing">ยังไม่เริ่มต้น</string>
+    <string name="env_distro">ดิสทริบิวชัน</string>
+    <string name="env_arch">สถาปัตยกรรม</string>
+    <string name="env_size">พื้นที่ใช้งาน</string>
+    <string name="hint_ready">สภาพแวดล้อมพร้อมแล้ว เปิดเทอร์มินัลหรือติดตั้ง .deb</string>
+    <string name="hint_need_setup">เริ่มต้นสภาพแวดล้อมก่อน</string>
+    <string name="btn_setup">เริ่มต้นสภาพแวดล้อม</string>
+    <string name="btn_terminal">เปิดเทอร์มินัล</string>
+    <string name="btn_reset">รีเซ็ต</string>
+    <string name="setup_running">กำลังเริ่มต้น…</string>
+    <string name="setup_cancel">ยกเลิก</string>
+    <string name="delete_confirm">รีเซ็ต</string>
+    <string name="install_title">ติดตั้ง .deb</string>
+    <string name="install_hint">แพ็กเกจจะถูกแตกภายในคอนเทนเนอร์เท่านั้น ไม่แตะระบบแอนดรอยด์</string>
+    <string name="install_pick">เลือกไฟล์ .deb</string>
+    <string name="install_start">ติดตั้ง</string>
+    <string name="install_running">กำลังติดตั้ง…</string>
+    <string name="install_ok">ติดตั้งสำเร็จ</string>
+    <string name="install_fail">ติดตั้งล้มเหลว</string>
+    <string name="term_status_running">กำลังทำงาน</string>
+    <string name="term_status_idle">ว่าง</string>
+    <string name="term_restart">รีสตาร์ท</string>
+    <string name="apps_title">แพ็กเกจที่ติดตั้ง</string>
+    <string name="apps_search">ค้นหา</string>
+    <string name="apps_empty">ยังไม่มีแพ็กเกจที่ติดตั้ง</string>
+    <string name="settings_licenses">สัญญาอนุญาตโอเพนซอร์ส</string>
+    <string name="settings_terms">ข้อกำหนดการให้บริการ</string>
+    <string name="action_ok">ตกลง</string>
+    <string name="action_cancel">ยกเลิก</string>
+    <string name="action_edit">เปลี่ยน</string>
+</resources>

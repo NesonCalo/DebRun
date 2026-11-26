@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Početna</string>
+    <string name="tab_install">Instaliraj</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Aplikacije</string>
+    <string name="tab_settings">Postavke</string>
+    <string name="home_title">Linux kontejner</string>
+    <string name="home_subtitle">Raspakirajte i pokrenite deb pakete na Androidu bez roota.</string>
+    <string name="env_ready">Spremno</string>
+    <string name="env_missing">Nije inicijalizirano</string>
+    <string name="env_distro">Distribucija</string>
+    <string name="env_arch">Arhitektura</string>
+    <string name="env_size">Zauzet prostor</string>
+    <string name="hint_ready">Okruženje je spremno. Otvorite terminal ili instalirajte .deb.</string>
+    <string name="hint_need_setup">Prvo inicijalizirajte okruženje.</string>
+    <string name="btn_setup">Inicijaliziraj okruženje</string>
+    <string name="btn_terminal">Otvori terminal</string>
+    <string name="btn_reset">Resetiraj</string>
+    <string name="setup_running">Inicijalizacija…</string>
+    <string name="setup_cancel">Odustani</string>
+    <string name="delete_confirm">Resetiraj</string>
+    <string name="install_title">Instaliraj .deb</string>
+    <string name="install_hint">Paket se raspakirava samo u kontejneru, nikad u Android sustavu.</string>
+    <string name="install_pick">Odaberi .deb datoteku</string>
+    <string name="install_start">Instaliraj</string>
+    <string name="install_running">Instaliranje…</string>
+    <string name="install_ok">Paket instaliran</string>
+    <string name="install_fail">Instalacija nije uspjela</string>
+    <string name="term_status_running">radi</string>
+    <string name="term_status_idle">neaktivan</string>
+    <string name="term_restart">Ponovno pokreni</string>
+    <string name="apps_title">Instalirani paketi</string>
+    <string name="apps_search">Pretraži</string>
+    <string name="apps_empty">Još nema instaliranih paketa.</string>
+    <string name="settings_licenses">Licence otvorenog koda</string>
+    <string name="settings_terms">Uvjeti usluge</string>
+    <string name="action_ok">U redu</string>
+    <string name="action_cancel">Odustani</string>
+    <string name="action_edit">Promijeni</string>
+</resources>

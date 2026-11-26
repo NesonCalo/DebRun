@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_home">Accueil</string>
+    <string name="tab_install">Installer</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_apps">Applications</string>
+    <string name="tab_settings">Réglages</string>
+    <string name="home_title">Conteneur Linux</string>
+    <string name="home_subtitle">Déballer et exécuter des paquets deb sur Android, sans root.</string>
+    <string name="env_ready">Prêt</string>
+    <string name="env_missing">Non initialisé</string>
+    <string name="env_distro">Distribution</string>
+    <string name="env_arch">Architecture</string>
+    <string name="env_size">Espace utilisé</string>
+    <string name="hint_ready">L\'environnement est prêt. Ouvrez le terminal ou installez un .deb.</string>
+    <string name="hint_need_setup">Initialisez d\'abord l\'environnement.</string>
+    <string name="btn_setup">Initialiser</string>
+    <string name="btn_terminal">Ouvrir le terminal</string>
+    <string name="btn_reset">Réinitialiser</string>
+    <string name="setup_running">Initialisation…</string>
+    <string name="setup_cancel">Annuler</string>
+    <string name="delete_confirm">Réinitialiser</string>
+    <string name="install_title">Installer un .deb</string>
+    <string name="install_hint">Le paquet est déballé dans le conteneur, jamais dans le système Android.</string>
+    <string name="install_pick">Choisir un fichier .deb</string>
+    <string name="install_start">Installer</string>
+    <string name="install_running">Installation…</string>
+    <string name="install_ok">Paquet installé</string>
+    <string name="install_fail">Échec de l\'installation</string>
+    <string name="term_status_running">actif</string>
+    <string name="term_status_idle">inactif</string>
+    <string name="term_restart">Redémarrer</string>
+    <string name="apps_title">Paquets installés</string>
+    <string name="apps_search">Rechercher</string>
+    <string name="apps_empty">Aucun paquet installé.</string>
+    <string name="settings_licenses">Licences open source</string>
+    <string name="settings_terms">Conditions d\'utilisation</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_edit">Modifier</string>
+</resources>
