@@ -31,6 +31,16 @@ DebRun 把这四步做成一个图形界面：点一下初始化，选文件，�
 - 38 种语言（英文 / 简体中文完整翻译，其余 36 种覆盖主界面核心文案）
 - 完全离线可用（除首次下载根文件系统和 apt 安装依赖）
 
+## 界面
+
+| 初始化完成 | 终端 |
+| --- | --- |
+| ![home](docs/screenshots/home-ready.png) | ![terminal](docs/screenshots/terminal-hello.png) |
+
+| `.deb` 元数据预览 | 安装完成 |
+| --- | --- |
+| ![preview](docs/screenshots/deb-preview.png) | ![installed](docs/screenshots/deb-installed.png) |
+
 ## 安装
 
 从 [Releases](../../releases) 下载 APK 直接安装。首次打开点"初始化环境"，等待下载（约 30 MB）。
@@ -52,6 +62,18 @@ apt-get install -y curl git
 dpkg -i /tmp/foo.deb        # 或 apt install ./foo.deb
 ```
 
+## 实测验证
+
+当前版本在 Android 11（API 30）x86_64 模拟器上跑通了完整链路，Release 签名包实测：
+
+1. 首次初始化：从清华 TUNA 拉取 `ubuntu-base-24.04.5`（28.6 MB），解压后占用 199.4 MB，状态变为 Ready。
+2. 终端：`script` 提供真 PTY，`root@debrun:~#` 提示符正常，软键盘、Ctrl 键、`TAB`、方向键可用。
+3. 装包：选择 `hello_2.10-1_amd64.deb`，元数据预览正确（amd64 / 104 KB / 依赖 `libc6 (>= 2.14)`），`dpkg -i` 返回 `Package installed`。
+4. 列表：应用页读到 dpkg 数据库 93 个包，搜索 `hello` 命中 `hello 2.10-1`。
+5. 运行：在应用页点 `hello` → 终端执行 → 输出 `Hello, world!`，证明容器内的 glibc 二进制真正跑起来了。
+
+未在真机 arm64 上验证的部分：需用户实机确认（`arm64-v8a` 的 proot 二进制同样来自 Termux 官方构建，理论上等价）。
+
 ## 已知限制
 
 - **图形界面程序（X11）不显示**：Firefox、GIMP 这类需要 X server。路线图里会接 `Termux:X11` 或内置 VNC。
@@ -67,7 +89,9 @@ dpkg -i /tmp/foo.deb        # 或 apt install ./foo.deb
 ./gradlew :app:assembleRelease
 ```
 
-`local.properties` 里写 `sdk.dir=...`。发布签名可选：在仓库根目录放 `keystore.properties`（`storeFile` / `storePassword` / `keyAlias` / `keyPassword`），或用环境变量 `DEBRUN_KEYSTORE` 等。CI 见 `.github/workflows/build.yml`。
+`local.properties` 里写 `sdk.dir=...`。发布签名可选：在仓库根目录放 `keystore.properties`（`storeFile` / `storePassword` / `keyAlias` / `keyPassword`），或用环境变量 `DEBRUN_KEYSTORE` 等。
+
+CI 工作流现放在 **`docs/ci-build.yml`**（GitHub 的 OAuth token 无 `workflow` 权限时无法直接推送 `.github/workflows/*`）。想启用 Actions：把它复制到 `.github/workflows/build.yml` 再推送，或直接在网页上新建该文件并粘贴内容。工作流会跑 `assembleDebug`/`assembleRelease`、上传产物，并在打 tag 时自动发 Release。
 
 ## 目录结构
 

@@ -19,10 +19,38 @@
             padding: 4px 6px;
             box-sizing: border-box;
         }
+        #err {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            color: #ff7b72;
+            font: 11px monospace;
+            white-space: pre-wrap;
+            padding: 4px 6px;
+            background: rgba(0, 0, 0, .6);
+            display: none;
+        }
     </style>
 </head>
 <body>
 <div id="t"></div>
+<div id="err"></div>
+<script>
+    function showErr(text) {
+        var box = document.getElementById('err');
+        box.style.display = 'block';
+        box.textContent += text + '\n';
+        console.log('ERROR: ' + text);
+    }
+    window.onerror = function (msg, src, line, col, err) {
+        showErr(msg + ' (' + src + ':' + line + ':' + col + ')');
+        return false;
+    };
+    window.addEventListener('unhandledrejection', function (e) {
+        showErr('promise: ' + e.reason);
+    });
+</script>
 <script src="xterm.js"></script>
 <script src="addon-fit.js"></script>
 <script src="main.js"></script>

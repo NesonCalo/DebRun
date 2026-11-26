@@ -36,6 +36,7 @@ class TerminalSession(
             command,
             mapOf("COLUMNS" to cols.toString(), "LINES" to rows.toString())
         )
+        android.util.Log.i("DebRun", "terminal start: ${command.joinToString(" ")}")
         process = proc
         synchronized(pendingInput) {
             if (pendingInput.isNotEmpty()) {
@@ -59,6 +60,7 @@ class TerminalSession(
             } catch (_: Throwable) {
             }
             val code = runCatching { proc.waitFor() }.getOrDefault(-1)
+            android.util.Log.i("DebRun", "terminal exited: $code (closed=$closed)")
             if (!closed) onExit(code)
         }
     }

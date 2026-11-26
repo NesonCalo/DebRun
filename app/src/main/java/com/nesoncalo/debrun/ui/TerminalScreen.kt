@@ -33,6 +33,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
@@ -60,6 +61,7 @@ fun TerminalScreen(
     val pending = remember { StringBuilder() }
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     var started by remember { mutableStateOf(false) }
+    var running by remember { mutableStateOf(false) }
 
     val session = remember {
         TerminalSession(
@@ -71,6 +73,7 @@ fun TerminalScreen(
                 synchronized(pending) { pending.append("\r\n\u001b[90m[process exited: $code]\u001b[0m\r\n") }
                 webView?.post { flushPending(webView, pending) }
                 started = false
+                running = false
             }
         )
     }
@@ -87,6 +90,7 @@ fun TerminalScreen(
     LaunchedEffect(ready, webView) {
         if (ready && webView != null && !started) {
             started = true
+            running = true
             scope.launch(Dispatchers.IO) { session.start() }
         }
     }
@@ -109,13 +113,13 @@ fun TerminalScreen(
                     .width(8.dp)
                     .height(8.dp)
                     .background(
-                        if (session.isRunning) Color(0xFF7BD88F) else Color(0xFF555D68),
+                        if (running) Color(0xFF7BD88F) else Color(0xFF555D68),
                         RoundedCornerShape(50)
                     )
             )
             Spacer(Modifier.width(6.dp))
             Text(
-                stringResource(if (session.isRunning) R.string.term_status_running else R.string.term_status_idle),
+                stringResource(if (running) R.string.term_status_running else R.string.term_status_idle),
                 fontSize = 11.sp,
                 fontFamily = FontFamily.Monospace,
                 color = Color(0xFF9AA4B2)
@@ -130,17 +134,31 @@ fun TerminalScreen(
             TextButton(onClick = {
                 webView?.evaluateJavascript("window.dr.clear()", null)
                 session.stop(notify = false)
+                running = true
                 session.start()
                 started = true
+                webView?.requestFocus()
             }) { Text(stringResource(R.string.term_restart), fontSize = 11.sp) }
         }
 
         Box(Modifier.weight(1f).fillMaxWidth()) {
             AndroidView(
-                modifier = Modifier.fillMaxSize(),
+                modifier = Modifier
+                    .fillMaxSize()
+                    .onSizeChanged { size ->
+                        // Compose knows the real size; xterm's own fit() can see a
+                        // zero-height viewport before Chromium finishes layout.
+                        if (size.height > 0 && size.width > 0) {
+                            webView?.evaluateJavascript(
+                                "window.dr && window.dr.fit && window.dr.fit()", null
+                            )
+                        }
+                    },
                 factory = { ctx ->
                     WebView(ctx).apply {
                         setBackgroundColor(AndroidColor.rgb(13, 16, 20))
+                        isFocusable = true
+                        isFocusableInTouchMode = true
                         settings.javaScriptEnabled = true
                         settings.domStorageEnabled = true
                         settings.allowFileAccess = true
@@ -169,10 +187,27 @@ fun TerminalScreen(
                             }
                         }, "DrBridge")
                         webViewClient = WebViewClient()
+                        webChromeClient = object : android.webkit.WebChromeClient() {
+                            override fun onConsoleMessage(msg: android.webkit.ConsoleMessage): Boolean {
+                                android.util.Log.i(
+                                    "DebRun",
+                                    "console[${msg.messageLevel()}] ${msg.message()} @${msg.lineNumber()}"
+                                )
+                                return true
+                            }
+                        }
                         loadUrl("file:///android_asset/terminal/index.html")
                     }
                 },
-                update = { view -> webView = view }
+                update = { view ->
+                    webView = view
+                    view.post {
+                        view.evaluateJavascript("window.dr && window.dr.fit && window.dr.fit()", null)
+                    }
+                    view.postDelayed({
+                        view.evaluateJavascript("window.dr && window.dr.fit && window.dr.fit()", null)
+                    }, 3000)
+                }
             )
         }
 

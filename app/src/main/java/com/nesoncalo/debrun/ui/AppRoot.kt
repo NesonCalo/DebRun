@@ -262,7 +262,8 @@ fun AppRoot() {
 }
 
 private fun bootstrapExtraTools(addLog: (String) -> Unit) {
-    val script = "apt-get update -qq >/dev/null 2>&1; " +
+    val script = "echo \"probe: $(uname -m) uid=$(id -u)\"; " +
+        "apt-get update -qq >/dev/null 2>&1; " +
         "apt-get install -y --no-install-recommends bsdextrautils procps >/dev/null 2>&1; " +
         "echo 'tools:' ; command -v script; command -v ps"
     try {
@@ -273,7 +274,7 @@ private fun bootstrapExtraTools(addLog: (String) -> Unit) {
                 addLog(line)
             }
         }
-        process.waitFor()
+        addLog("bootstrap exit=${process.waitFor()}")
     } catch (t: Throwable) {
         addLog("bootstrap skipped: ${t.message}")
     }

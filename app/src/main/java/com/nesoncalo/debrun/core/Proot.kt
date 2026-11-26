@@ -15,12 +15,12 @@ object Proot {
     fun ensureInstalled(): Boolean {
         val arch = Env.arch()
         val ok = copyAsset("proot/$arch/proot", Env.prootPath, executable = true) &&
-            copyAsset("proot/$arch/loader", Env.loaderPath, executable = true) &&
+            copyAsset("proot/$arch/libexec/proot/loader", Env.loaderPath, executable = true) &&
             copyAsset("proot/$arch/lib/libtalloc.so.2", File(Env.libDir, "libtalloc.so.2")) &&
             copyAsset("proot/$arch/lib/libandroid-shmem.so", File(Env.libDir, "libandroid-shmem.so"))
         // 32-bit proot builds have no separate loader32.
-        if (assetExists("proot/$arch/loader32")) {
-            copyAsset("proot/$arch/loader32", Env.loader32Path, executable = true)
+        if (assetExists("proot/$arch/libexec/proot/loader32")) {
+            copyAsset("proot/$arch/libexec/proot/loader32", Env.loader32Path, executable = true)
         }
         Env.l2sDir.mkdirs()
         Env.logsDir.mkdirs()
@@ -46,6 +46,10 @@ object Proot {
             if (executable) target.setExecutable(true, false)
             true
         } catch (t: Throwable) {
+            android.util.Log.e(
+                "DebRun",
+                "copyAsset failed: $assetPath -> ${target.absolutePath} (${t.javaClass.simpleName}: ${t.message})"
+            )
             false
         }
     }
@@ -85,11 +89,9 @@ object Proot {
                 args += path
             }
         }
-        // Storage is only useful once the user granted access; a missing bind is harmless.
-        if (File("/storage/emulated/0").exists()) {
-            args += "-b"
-            args += "/storage"
-        }
+        // Note: no /storage bind on purpose. A bind of a path the app cannot read
+        // makes proot abort, and shared storage is not needed: .deb files are pulled
+        // in through SAF and copied into the rootfs tmp dir.
         args += "-w"
         args += "/root"
         return args
