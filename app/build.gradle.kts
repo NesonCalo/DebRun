@@ -22,8 +22,8 @@ android {
         // Deliberately 28: Android only allows executing binaries stored in the app
         // private directory for apps targeting API <= 28. proot + rootfs depend on it.
         targetSdk = 28
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
 
         ndk {
             abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64")
